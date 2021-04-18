@@ -4,14 +4,20 @@
     "keywords": ["wrike", "wrike.com", "api", "sdk", "library", "jmsserializer", "php"],
     "type": "library",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:imageinabox/wrike-php-library.git"
+        }
+    ],
     "authors": [
         {
             "name": "Zbigniew Ślązak"
         }
     ],
     "require": {
-        "php": ">=5.5,<7.2",
-        "zibios/wrike-php-library": "^1.0",
+        "php": ">7.3",
+        "zibios/wrike-php-library": "dev-main",
         "jms/serializer": "^1.4"
     },
     "require-dev": {
